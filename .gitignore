@@ -1,0 +1,35 @@
+*.class
+*.DS_Store
+*.log
+
+# scala worksheets
+*.sc
+
+# sbt specific
+target/
+project/target/
+project/project/target/
+project/plugins/project/
+
+utils/target
+.bsp/
+.env
+
+# Scala-IDE specific
+.scala_dependencies
+.bloop/
+.metals/
+project/.bloop
+project/metals.sbt
+.vscode/
+project/project/
+
+# IntelliJ specific
+**.iml
+.idea
+.idea_modules/
+
+dump.rdb
+
+*.ipr
+*.iws
